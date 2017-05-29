@@ -1,4 +1,4 @@
-# hz-dialog
+# hz-accordion
 hz-accordion allows to create accordions as resources with all the advatages of an haztivity resource.\
 hz-accordion uses [jquery ui accordion](https://jqueryui.com/accordion/) under the hood.
 ## Install
