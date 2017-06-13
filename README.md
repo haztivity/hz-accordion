@@ -51,7 +51,7 @@ or
 </div>
 ```
 ## Sequence
-By default, the accordion requires activate the panel sequentially, to activate the 3rd panel the 2nd muust have been activated before.\
+By default, the panels require being activated sequentially, to activate the 3rd panel the 2nd must have been activated before.\
 It's possible disable this behavior using the attribute `data-opt-hz-accordion-sequential`
 ### Pug
 ```jade
