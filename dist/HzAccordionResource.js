@@ -20,7 +20,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @license
  * Copyright Davinchi. All Rights Reserved.
  */
-var index_1 = require("@haztivity/core/index");
+var core_1 = require("@haztivity/core");
 require("jquery-ui-dist/jquery-ui.js");
 var HzAccordionResource = HzAccordionResource_1 = (function (_super) {
     __extends(HzAccordionResource, _super);
@@ -113,18 +113,18 @@ var HzAccordionResource = HzAccordionResource_1 = (function (_super) {
         return this._accordionInstance;
     };
     return HzAccordionResource;
-}(index_1.ResourceController));
+}(core_1.ResourceController));
 HzAccordionResource.NAMESPACE = "hzAccordion";
 HzAccordionResource.DEFAULTS_ACCORDION = {
     heightStyle: "content"
 };
 HzAccordionResource = HzAccordionResource_1 = __decorate([
-    index_1.Resource({
+    core_1.Resource({
         name: "HzAccordion",
         dependencies: [
-            index_1.$,
-            index_1.EventEmitterFactory,
-            index_1.DataOptions
+            core_1.$,
+            core_1.EventEmitterFactory,
+            core_1.DataOptions
         ]
     })
 ], HzAccordionResource);

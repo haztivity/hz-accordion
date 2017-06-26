@@ -1,6 +1,6 @@
 {
   "name": "@haztivity/hz-accordion",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Accordion resource",
   "main": "dist/HzAccordion.js",
   "module": "dist/HzAccordion.js",
