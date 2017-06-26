@@ -1,9 +1,9 @@
 {
   "name": "@haztivity/hz-accordion",
-  "version": "0.6.0",
-  "description": "Recurso de acordeón",
-  "main": "index.js",
-  "module": "index.js",
+  "version": "0.6.1",
+  "description": "Accordion resource",
+  "main": "dist/HzAccordion.js",
+  "module": "dist/HzAccordion.js",
   "scripts": {
     "build": "tsc -p src",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +27,7 @@
     "@haztivity/cli": "^0.2.3",
     "@haztivity/hz-navbar": "^0.6.0",
     "@types/core-js": "^0.9.35",
-    "@types/jquery": "^2.0.34",
+    "@types/jquery": "^3.2.5",
     "@types/jqueryui": "^1.11.32",
     "@types/loglevel": "^1.4.29",
     "@types/string": "0.0.28",
@@ -36,7 +36,7 @@
     "typescript": "^2.1.1"
   },
   "dependencies": {
-    "@haztivity/core": "^0.6.2",
+    "@haztivity/core": "^0.6.x",
     "jquery-ui-dist": "^1.12.1"
   }
 }
