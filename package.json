@@ -18,8 +18,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "types": "index.ts",
-  "typings": "index.ts",
+  "types": "src/HzAccordion.ts",
+  "typings": "src/HzAccordion.ts",
   "author": "Davinchi",
   "license": "ISC",
   "homepage": "",
