@@ -1,6 +1,6 @@
 div
     div.markdown-wrapper
-        :markdown-it(linkify)
+        :markdown-it
             # hz-accordion
             hz-accordion allows to create accordions as resources with all the advatages of an haztivity resource.\
             hz-accordion uses [jquery ui accordion](https://jqueryui.com/accordion/) under the hood.
@@ -57,7 +57,7 @@ div
             div Content 2
             h3 Title 3
             div Content 3
-        :markdown-it(linkify)
+        :markdown-it
             ## Sequence
             By default, the accordion requires activate the panel sequentially, to activate the 3rd panel the 2nd muust have been activated before.\
             It's possible disable this behavior using the attribute `data-opt-hz-accordion-sequential`
@@ -90,7 +90,7 @@ div
             div Content 2
             h3 Title 3
             div Content 3
-        :markdown-it(linkify)
+        :markdown-it
             ## Options
             All the options of jquery ui accordion **except** functions could be specified by attributes using:
             ```jade

@@ -22,7 +22,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var core_1 = require("@haztivity/core");
 require("jquery-ui-dist/jquery-ui.js");
-var HzAccordionResource = HzAccordionResource_1 = (function (_super) {
+var HzAccordionResource = /** @class */ (function (_super) {
     __extends(HzAccordionResource, _super);
     function HzAccordionResource(_$, _EventEmitterFactory, _DataOptions) {
         var _this = _super.call(this, _$, _EventEmitterFactory) || this;
@@ -30,6 +30,7 @@ var HzAccordionResource = HzAccordionResource_1 = (function (_super) {
         _this._DataOptions = _DataOptions;
         return _this;
     }
+    HzAccordionResource_1 = HzAccordionResource;
     HzAccordionResource.prototype.init = function (options, config) {
         this._config = config;
         this._options = options;
@@ -112,22 +113,22 @@ var HzAccordionResource = HzAccordionResource_1 = (function (_super) {
     HzAccordionResource.prototype.getInstance = function () {
         return this._accordionInstance;
     };
+    HzAccordionResource.NAMESPACE = "hzAccordion";
+    HzAccordionResource.DEFAULTS_ACCORDION = {
+        heightStyle: "content"
+    };
+    HzAccordionResource = HzAccordionResource_1 = __decorate([
+        core_1.Resource({
+            name: "HzAccordion",
+            dependencies: [
+                core_1.$,
+                core_1.EventEmitterFactory,
+                core_1.DataOptions
+            ]
+        })
+    ], HzAccordionResource);
     return HzAccordionResource;
+    var HzAccordionResource_1;
 }(core_1.ResourceController));
-HzAccordionResource.NAMESPACE = "hzAccordion";
-HzAccordionResource.DEFAULTS_ACCORDION = {
-    heightStyle: "content"
-};
-HzAccordionResource = HzAccordionResource_1 = __decorate([
-    core_1.Resource({
-        name: "HzAccordion",
-        dependencies: [
-            core_1.$,
-            core_1.EventEmitterFactory,
-            core_1.DataOptions
-        ]
-    })
-], HzAccordionResource);
 exports.HzAccordionResource = HzAccordionResource;
-var HzAccordionResource_1;
 //# sourceMappingURL=HzAccordionResource.js.map
